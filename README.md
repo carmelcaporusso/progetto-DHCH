@@ -1,1 +1,1 @@
-# progetto-DHCH
+# progetto-digital-humanities
