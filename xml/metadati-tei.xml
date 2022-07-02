@@ -1,0 +1,88 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Intervention de Mme Simone Veil Athenes - Le 2 novembre 1992</title>
+				<respStmt>
+					<resp>editor</resp>
+					<name xml:id="CC">Carmela Caporusso</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>Alma Mater Studiorum - Università di Bologna, corso di Digital Humanities e Patrimonio Culturale (1) (LM) 2021/2022</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Extracted from Réseau européen d'experts 'Les femmes dans la prise de décision'</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p n="1" xml:lang="fr">
+				Femmes au pouvoir
+				<index>
+					<term>Femmes</term>
+					<term>pouvoir</term>
+				</index>
+				, un beau thème de réflexion pour les femmes qui 
+				<place where="Conference in Athens">y</place> sont quasiment absentes. Il n'est guère utile de rappeler 
+				<list>
+					<item>la proportion infime des femmes dans la plupart des parlements de nos pays,</item>
+					<item>ni leur faible participation
+					<index>
+						<term>faible participation</term>
+					</index> 
+					aux gouvernements et dans les instances dirigeants des partis.</item>
+				</list>
+			</p>
+			<p n="2">
+				<rs ref="tag:projectname.org,2012:SV1" type="person" role="politician">Je</rs> suis, il est vrai, mal placée pour me plaindre puisque je dois ma carrière politique
+				<index>
+					<term>carrière</term>
+				</index> 
+				au fait que je suis une femme. 
+			</p>
+			<p n="3">
+				En 
+				<date when="1974">1974</date> le nouveau 
+				<persName ref="tag:projectname.org,2012:VGE1">
+					<roleName type="office">Président</roleName>
+				</persName>
+				<choice>
+					<corr>de la</corr>
+					<sic>dela</sic>
+				</choice>
+				<orgName type="phrase">République</orgName>
+				voulait des femmes dans le gouvernement. On alla me quérir au
+				<orgName><name type="role">ministère</name>de la Justice</orgName> où j'étais 
+				<persName ref="#SV1">
+					<roleName type="office">magistrat.</roleName>
+				</persName>
+				Je
+				<list>
+					<item>n'appartenais pas à une formation politique</item> et
+					<item>n'avais pas de vocation à devenir une "femme de pouvoir".</item>
+				</list>
+				<index>
+					<term>"femme de pouvoir"</term>
+				</index>
+			</p>
+			<p n="4">
+				Les obstacles, 
+				<index>
+					<term>obstacles</term>
+				</index>
+				j'en avais eu cependant à surmonter au cours de ma carrière de magistrat. Chaque changement 
+				<index>
+					<term>changement</term>
+				</index>
+				d'affectation 
+				<item>avait été un noviciat,</item>
+				<item>m'obligeant à faire à nouveau la preuve</item>
+				<index>
+					<term>preuve</term>
+				</index>
+			</p>
+		</body>
+	</text>
+</TEI>

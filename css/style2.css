@@ -1,0 +1,13 @@
+.carousel-inner{
+	min-height: 200px;
+}
+.pagination{
+	margin-left: 50%;
+    margin-right: 50%;
+}
+
+.navbar{
+	position: fixed;
+	width: 100%;
+}
+

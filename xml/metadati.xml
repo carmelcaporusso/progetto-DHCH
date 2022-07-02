@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raccolta>
+	<item numero="1" id="150433">
+		<titolo-item>Intervention de Mme Simone VEIL, ATHENES - LE 2 NOVEMBRE 1992</titolo-item>
+		<metadati>
+			<immagine sorgente="img/intervento-donne-veil1.jpg"/>
+			<riferimento>FDE-23</riferimento>
+			<riferimento tipo="completo">https://archives.eui.eu/en/fonds/150433?item=FDE.B.04-01.04-23</riferimento>
+			<titolo-documento>Réseau européen d'experts 'Les femmes dans la prise de décision'</titolo-documento>
+			<data-documento>[1992]</data-documento>
+			<autore>Femmes-d-Europe</autore>
+			<reference-archivist>Previti, Catherine</reference-archivist>
+			<genere descrizione="dossier"/>
+			<supporto>Paper</supporto>
+			<materiale-archivistico>Textual</materiale-archivistico>
+			<abstract>Conférence du réseau à Athènes (02-03/11): Intervention de S. Veil, ancienne présidente du Parlement européen</abstract>
+			<lingua>French</lingua>
+			<physical-location>Historical Archives of the European Union</physical-location>
+		</metadati>
+	</item>
+</raccolta>

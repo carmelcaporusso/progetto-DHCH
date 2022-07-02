@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raccolta xml:id="DSV" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<item n="1" xml:id="DSV-150433">
+		<titolo-item>Intervention de Mme Simone VEIL, ATHENES - LE 2 NOVEMBRE 1992</titolo-item>
+		<metadati>
+			<img source="img/intervento-donne-veil1.jpg"/>
+			<dc:identifier>FDE-23</dc:identifier>
+			<dc:identifier tipo="completo">https://archives.eui.eu/en/fonds/150433?item=FDE.B.04-01.04-23</dc:identifier>
+			<dc:title>Réseau européen d'experts 'Les femmes dans la prise de décision'</dc:title>
+			<dc:date>[1992]</dc:date>
+			<dc:creator>Femmes d'Europe</dc:creator>
+			<dc:contributor>Previti, Catherine</dc:contributor>
+			<dc:type descrizione="dossier"/>
+			<dc:format tipo="physical-medium">Paper</dc:format>
+			<dc:format tipo="achivial-material">Textual</dc:format>
+			<dc:description>Conférence du réseau à Athènes (02-03/11): Intervention de S. Veil, ancienne présidente du Parlement européen</dc:description>
+			<dc:language>French</dc:language>
+			<dc:coverage>Historical Archives of the European Union</dc:coverage>
+			<dc:rights>The HAEU online database provides access to the inventories of all holdings preserved at the HAEU, as well as to many digital or digitised documents or audiovisual items that are directly available for online consultation after registration on the online platform.</dc:rights>
+			<dc:subject>femmes, pouvoir, faible participation, carrière, obstacles, proportion, courage, balance</dc:subject>
+		</metadati>
+	</item>
+</raccolta>

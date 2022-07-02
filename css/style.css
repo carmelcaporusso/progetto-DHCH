@@ -1,0 +1,39 @@
+.navbar {
+	position: fixed;
+	top:  0;
+	width: 100%;
+}
+
+
+
+#container-fluid { 
+	border-style: solid;
+	border-width: thin;
+	margin: 80px;
+	text-align: center; 
+}
+
+h1 { 
+	font-style: italic;
+	font-size: 120px;
+}
+
+#Simone{
+	text-align: center;
+	color: rgb(117, 223, 221);
+}
+
+#Veil{
+	text-align: right;
+	color: red;
+}
+
+#Discover {
+	color: hotpink;
+}
+
+
+.pagination{
+	margin-left: 50%;
+    margin-right: 50%;
+}
