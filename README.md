@@ -1,3 +1,2 @@
 ### Progetto-digital-humanities
-
-https://github.com/carmelcaporusso/progetto-DHCH.git
+Available at: https://carmelcaporusso.github.io/progetto-DHCH/
