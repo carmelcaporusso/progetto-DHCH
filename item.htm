@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="it">
 	<head>
+		<meta name="DC.Title" content="Discover Simone Veil">
+		<meta name="DC.Creator" content="Carmela Caporusso">
+		<meta name="DC.Subject" content="impronta storico-antropologica e culturale della politica Simone Veil">
+		<meta name="DC.Description" content="la risorsa web fornisce strumenti per conoscere la vita e l'operato di Simone Veil, approfondendo particolarmente deportazione, questione femminile (aborto) e costruzione democratica dell'Europa">
+		<meta name="DC.Publisher" content="Alma Mater Studiorum - Università di Bologna">
+		<meta name="DC.Date" content="2022">
+		<meta name="DC.Type" content="Digital Humanities">
+		<meta name="DC.Format" content="html/css/xml">
+		<meta name="DC.Identifier" content="https://carmelcaporusso.github.io/progetto-DHCH/">
+		<meta name="DC.Source" content="https://cittaamisuradidonna.wordpress.com/2017/07/12/simone-j-veil-1927-2017/">
+		<meta name="DC.Language" content="it">
+		<meta name="DC.Relation" content="https://archives.eui.eu/en/fonds/150433?item=FDE.B.04-01.04-23">
+		<meta name="DC.Coverage" content="Italian Empire, 8711770">
+		<meta name="DC.Rights" content="CC BY-ND">
+
 		<title>Discover Simone Veil</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta charset="UTF-8"/>
@@ -14,25 +29,21 @@
 	</head>
 
 	<body>
-		<header>
-			
-		</header>
+		<div id="contenimento">
+			<span id="top"></span>
+			<header></header>
 
-		<p class="placeholder-glow">
-			  <span class="placeholder col-12"></span>
-			</p>
-
-		<!--Creazione navbar-->
+		<!--Navbar-->
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
 					<div class="container-fluid">
-						    <a class="navbar-brand" href="index.htm"><button type="button" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Home">DSV</button></a>
+						    <a class="navbar-brand" href="index.htm"><button type="button" id="brand" class="btn btn-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Home">DSV</button></a>
 						    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						      <span class="navbar-toggler-icon"></span>
 						    </button>
 						    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 						      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						        <li class="nav-item">
-						          <a class="nav-link active" aria-current="page" href="#">Biografia</a>
+						          <a class="nav-link active" aria-current="page" href="#">Scopri</a>
 						        </li>
 						        <li class="nav-item dropdown">
 						          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -65,12 +76,15 @@
 				</nav>
 
 
-			<br/><br/>
+			<br/>
 
+		<!-- Aside -->
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-2">
 					<div id="sidebar">
+
+						<!-- Breadcrumb -->
 						<nav aria-label="breadcrumb">
 						  <ol class="breadcrumb">
 						    <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -78,54 +92,124 @@
 						    <li class="breadcrumb-item active" aria-current="page">Intervento di Simone Veil, Atene 1992</li>
 						  </ol>
 						</nav>
+						<!-- Buttons -->
 						<p><button type="button" class="btn btn-light"><a href="xml/metadati.xml">File XML ben formato</a></button></p>
 						<p><button type="button" class="btn btn-light"><a href="xml/metadati-dc.xml">File XML/DC</a></button></p>
 						<p><button type="button" class="btn btn-light"><a href="xml/metadati-tei.xml">File XML/TEI</a></button></p>
+						<p><button type="button" class="btn btn-light"><a href="xml/metadati-ead.xml">File EAD</a></button></p>
+						<p><button type="button" class="btn btn-outline-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16"><path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/></svg> Condividi</button></p>
+						<p><a href="#" class="visited-link">Vedi la traduzione</a></p>
 					</div>
 				</div>
+
+				
 				<div class="col-md-8">
-					<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+
+					<!-- Tab -->
+					<div class="row">
+						<div class="col-md-12">
+							<ul class="nav nav-tabs">
+							  <li class="nav-item">
+							    <a class="nav-link" href="#">All</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link active" aria-current="page" href="#">Item</a>
+							</ul>
+						</div>
+					</div>
+					<br/>
+					<!-- Carousel item selezionato -->
+					<div id="carouselExampleSlidesOnly" class="carousel-slide" data-bs-ride="carousel">
 					  <div class="carousel-inner">
 					    <div class="carousel-item active">
-					      <img src="img/intervento-donne-veil1.jpg" class="d-block w-100" alt="...">
+					      <img src="img/intervento-veil-page1.jpg" title="1/6">
 					    </div>
 					    <div class="carousel-item">
-					      <img src="img/intervento-donne-veil2.jpg" class="d-block w-100" alt="...">
+					      <img src="img/intervento-veil-page2.jpg" title="2/6">
 					    </div>
 					    <div class="carousel-item">
-					      <img src="img/intervento-donne-veil3.jpg" class="d-block w-100" alt="...">
+					      <img src="img/intervento-veil-page3.jpg" title="3/6">
 					    </div>
 					    <div class="carousel-item">
-					      <img src="img/intervento-donne-veil4.jpg" class="d-block w-100" alt="...">
+					      <img src="img/intervento-veil-page4.jpg" title="4/6">
 					    </div>
 					    <div class="carousel-item">
-					      <img src="img/intervento-donne-veil5.jpg" class="d-block w-100" alt="...">
+					      <img src="img/intervento-veil-page5.jpg" title="5/6">
 					    </div>
 					    <div class="carousel-item">
-					      <img src="img/intervento-donne-veil6.jpg" class="d-block w-100" alt="...">
+					      <img src="img/intervento-veil-page6.jpg" title="6/6">
 					    </div>
 					  </div>
 					</div>
+					<br/>
 
-					<table class="table table-striped table-hover">
+					<!-- Metadati -->
+					<table class="table table-hover">
+					<p><em>Introduzione all'item:</em> discorso tenuto dalla Ministra Simone Veil nel 1992 in occasione della Conferenza ateniese "Le donne nella presa di decisione", nell'ambito del progetto "Donne al potere", oggi consultabile online o presso l'Archivio Storico Europeo.</p>
 					  <tr>
 					  	<th>Titolo</th>
-					  	<td>Ricerca kskxidid</td>
+					  	<td>Intervento di Mme Veil, Atene - 2 novembre 1992 < Rete europea di esperti "Le donne nella presa di decisione"</td>
 					  </tr>
 					  <tr>
-					  	<th>Creatore</th>
-					  	<td>Femmes d'Europe</td>
-					  </tr>		
+					  	<th>Data</th>
+					  	<td>1992</td>
+					  </tr>	
+					  <tr>
+					  	<th>Autore</th>
+					  	<td><b><a href="https://www.worldcat.org/title/femmes-deurope-fonds-1976-1996/oclc/881359394&referer=brief_results" target="_blank" title="Identificativo WorldCat di Femmes d'Europe">Femmes d'Europe<sup>WorldCat</sup></a></b>.</td>
+					  </tr>
+					  <tr>
+					  	<th>Istituzione fornitrice</th>
+					  	<td><b><a href="http://viaf.org/viaf/133087619/#European_University_Institute." target="_blank" title="Identificativo VIAF dell'Istituto Universitario Europeo">Historical Archives of the European Union<sup>VIAF</sup></a></b></td>
+					  </tr>
+					  <tr>
+					  	<th>Intermediario</th>
+					  	<td>European University Institute</td>
+					  </tr>
+					  <tr>
+					  	<th>Supporto</th>
+					  	<td>Cartaceo</td>
+					  </tr>
+					  <tr>
+					  	<th></th>
+					  	<td>Elettronico</td>
+					  </tr>	
+					  <tr>
+					  	<th>Codice di riferimento</th>
+					  	<td>FDE-23</td>
+					  </tr>
+					  <tr>
+					  	<th>Lingua</th>
+					  	<td>Francese</td>
+					  </tr>
+					  <tr>
+					  	<th>Temi</th>
+					  	<td><button type="button" class="btn btn-outline-primary btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+  							<path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+  							<path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/></svg>Simone Veil</button><button type="button" class="btn btn-outline-primary btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+  							<path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+  							<path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/></svg>donne</button>
+							<button type="button" class="btn btn-outline-primary btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+  							<path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+  							<path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/></svg>politica</button><button type="button" class="btn btn-outline-primary btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tags" viewBox="0 0 16 16">
+  							<path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+  							<path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/></svg>uguaglianza</button></td>
+					  </tr>
+					  <tr>
+					  	<th>Parole chiave</th>
+					  	<td><iframe style='width: 507px; height: 378px;' src='https://voyant-tools.org/tool/CollocatesGraph/?query=femmes&query=faire&query=hommes&mode=corpus&corpus=867307f4abe0e6f5986dd2e3179f5842'></iframe></td>
+					  </tr>
 					</table>
 				</div>
+
+				<!-- Aside -->
 				<div class="col-md-2">
 					<aside>
 						<div class="related-contents">
-							<h6>About this item:</h6>
+							<br/><br/>
+							<h6>Potrebbero interessarti:</h6>
 							<hr/>
-							<h6>Keywords:</h6>
-							<p><iframe style='width: 509px; height: 378px;' src='https://voyant-tools.org/tool/CollocatesGraph/?query=femmes&query=faire&query=hommes&mode=corpus&corpus=867307f4abe0e6f5986dd2e3179f5842'></iframe></p>
-							<h6>Scopri di più sul creatore:</h6>
+							<h6>Informazioni sull'autore:</h6>
 							<figure class="figure">
   								<img src="img/FdE.jpg" class="figure-img img-fluid rounded" alt="...">
   							</figure>
@@ -166,6 +250,18 @@
 							    </div>
 							  </div>
 							</div>
+							<br/>
+							<h6>Item correlati:</h6>
+							<div class="related-card" style="width: 220px; height: 250px;">
+							  <img src="img/libro-veil.jpg" class="card-img-top" alt="Libro di Simone Veil «Mes combats»">
+							  <div class="related-card-body">
+							    <h5 class="card-title">Autobiografia <q>Mes combats</q></h5>
+							    <p class="card-text"><b>Autore:</b> <b><a href="http://viaf.org/viaf/120689047/#Veil,_Simone,_1927-2017" target="_blank" title="Identificativo VIAF di Simone Veil">Simone Veil<sup>VIAF</sup></a></b>.</p>
+							    <p class="card-text"><b>Data:</b> <p>postuma, 3 marzo 2021</p>
+							    <p class="card-text"><b>Istituzione fornitrice:</b> <b><a href="http://viaf.org/viaf/147883419/#Librairie_g%C3%A9n%C3%A9rale_fran%C3%A7aise." target="_blank" title="Identificativo VIAF di LGF le livre en poche">LGF le livre en poche<sup>VIAF</sup></a></p>
+							    <a href="#" class="btn btn-outline-primary">Tutti i metadati</a>
+							  </div>
+							</div>
 						</div>
 					</aside>
 				</div>
@@ -173,23 +269,15 @@
 		</div>
 
 		
-		
 
-
-
+		<!-- Pagination -->
 		<nav class="progress-page" aria-label="pagination">
 		  <ul class="pagination pagination-sm">
 		    <li class="page-item"><a class="page-link" href="#">1</a></li>
-		    <li class="page-item"><a class="page-link">2</a></li>
-		    <li class="page-item active" aria-current="page"><span class="page-link" href="#">3</span></li>
+		    <li class="page-item"><a class="page-link" href="#">2</a></li>
+		    <li class="page-item active" aria-current="page"><span class="page-link">3</span></li>
 		  </ul>
 		</nav>
-
-
-
-
-
-
 
 
 		<!-- Footer -->
@@ -242,7 +330,7 @@
 		          <!--Grid column-->
 		          <div class="col-auto">
 		            <p class="pt-2">
-		              <strong>Sign up for our newsletter</strong>
+		            	<strong>Registrati qui per la nostra newsletter</strong>
 		            </p>
 		          </div>
 		          <!--Grid column-->
@@ -251,8 +339,7 @@
 		          <div class="col-md-5 col-12">
 		            <!-- Email input -->
 		            <div class="form-outline form-white mb-4">
-		              <input type="email" id="form5Example21" class="form-control" />
-		              <label class="form-label" for="form5Example21">Email address</label>
+		              <input type="email" id="form5Example21" placeholder="Email address" class="form-control" />
 		            </div>
 		          </div>
 		          <!--Grid column-->
@@ -260,7 +347,7 @@
 		          <!--Grid column-->
 		          <div class="col-auto">
 		            <!-- Submit button -->
-		            <button type="submit" class="btn btn-outline-light mb-4">
+		            <button type="submit" class="btn btn-light mb-4">
 		              Subscribe
 		            </button>
 		          </div>
@@ -279,13 +366,9 @@
 		        <!-- Grid column -->
 		        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 		          <!-- Content -->
-		          <h6 class="text-uppercase fw-bold mb-4">
-		            <i class="fas fa-gem me-3"></i>Company name
-		          </h6>
-		          <p>
-		            Here you can use rows and columns to organize your footer content. Lorem ipsum
-		            dolor sit amet, consectetur adipisicing elit.
-		          </p>
+		          <h5 class="text fw-bold mb-4">
+		            <i class="fas fa-gem me-3"></i>DSV
+		          </h5>
 		        </div>
 		        <!-- Grid column -->
 
@@ -300,10 +383,10 @@
 		          <h6 class="text-uppercase fw-bold mb-4">
 		            Contact
 		          </h6>
-		          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+		          <p><i class="fas fa-home me-3"></i>Bologna, BO 40123, IT</p>
 		          <p>
 		            <i class="fas fa-envelope me-3"></i>
-		            info@example.com
+		            <a href="https://www.google.com/intl/it/gmail/about/">info@discoversimoneveil.com</a>
 		          </p>
 		          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
 		          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
@@ -323,12 +406,13 @@
 
 		  <!-- Copyright -->
 		  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-		    © 2021 Copyright:
-		    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+		    © Carmela Caporusso 2022
+		    <p>Esercizio realizzato durante il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna</p>
 		  </div>
 		  <!-- Copyright -->
 		</footer>
 		<!-- Footer -->
+
 
 			<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 

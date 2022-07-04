@@ -1,8 +1,22 @@
 <ead>
 	<eadheader>
-
+		<eadid>Intervention de Mme Simone Veil, ATHENES - LE 2 NOVEMBRE 1992</eadid>
+    <filedesc>
+        <titlestmt>
+            <titleproper>Femmes d'Europe</titleproper>
+        </titlestmt>
+    </filedesc>
 	</eadheader>
-	<archdesc>
-	
+	<archdesc level="item">
+		<dsc type="in-depth">
+			<did>
+				<repository>Historical Archives of the European Union</repository>
+				<origination label="creator">Femmes d'Europe</origination>
+				<unitdate>1992</unitdate>
+				<unitid>FDE-23</unitid>
+				<unititle>Réseau européen d'experts 'Les femmes dans la prise de décision'</unititle>
+			</did>
+			<accessrestrict>The HAEU online database provides access to the inventories of all holdings preserved at the HAEU, as well as to many digital or digitised documents or audiovisual items that are directly available for online consultation after registration on the online platform</accessrestrict>
+		</dsc>
 	</archdesc>
 </ead>

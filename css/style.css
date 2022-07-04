@@ -1,35 +1,26 @@
-.navbar {
-	position: fixed;
-	top:  0;
-	width: 100%;
-}
-
-
-
-#container-fluid { 
-	border-style: solid;
-	border-width: thin;
-	margin: 80px;
-	text-align: center; 
-}
-
 h1 { 
 	font-style: italic;
-	font-size: 120px;
+	font-size: 85px;
+	font-family: "Papyrus", fantasy;
+	font-weight: bold;
 }
+
+#brand {
+	font-family: "Papyrus", fantasy;
+}
+
+h3 {
+	font-family: "Amatic", sans-serif;
+}
+
 
 #Simone{
 	text-align: center;
-	color: rgb(117, 223, 221);
 }
 
 #Veil{
 	text-align: right;
-	color: red;
-}
-
-#Discover {
-	color: hotpink;
+	padding-right: 95px;
 }
 
 
@@ -37,3 +28,24 @@ h1 {
 	margin-left: 50%;
     margin-right: 50%;
 }
+
+
+.container-fluid {
+	text-align: justify;
+	padding: 0;
+}
+
+#intro-title{
+	color: dodgerblue;
+	padding-right: 80px;
+	padding-left: 60px;
+}
+
+#Discover {
+	padding-left: 5%;
+}
+
+#project-content {
+	margin-left: 7%;
+}
+
